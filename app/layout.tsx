@@ -3,13 +3,13 @@ import "./globals.css";
 import { siteContent } from "@/data/site-content";
 
 export const metadata: Metadata = {
-  title: `${siteContent.professional.name} | Psicologa`,
+  title: `${siteContent.professional.name} | Psicoterapia sistemico-relazionale ed EMDR`,
   description: siteContent.seo.description,
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: `${siteContent.professional.name} | Psicologa`,
+    title: `${siteContent.professional.name} | Psicoterapia sistemico-relazionale ed EMDR`,
     description: siteContent.seo.description,
     type: "website",
     locale: "it_IT",

@@ -27,7 +27,7 @@ export default function Home() {
             <div className="portrait-shape" aria-hidden="true" />
             <div>
               <strong>{siteContent.professional.name}</strong>
-              <span>{siteContent.professional.online}</span>
+              <span>{siteContent.professional.specialization}</span>
             </div>
           </div>
         </div>
@@ -43,8 +43,8 @@ export default function Home() {
           <div className="intro-note">
             <HeartHandshake size={28} aria-hidden="true" />
             <p>
-              Lavoro in modo riservato e attento alla persona, con cura per il contesto di vita e per
-              la qualità della relazione terapeutica.
+              Lavoro con adulti, coppie e famiglie, integrando lo sguardo sistemico-relazionale
+              con il metodo EMDR quando la storia e la richiesta lo rendono indicato.
             </p>
             <span>{siteContent.professional.registration}</span>
           </div>
@@ -165,7 +165,9 @@ export default function Home() {
           <p>
             {siteContent.professional.name} - {siteContent.professional.role}
           </p>
-          <p>{siteContent.professional.registration}</p>
+          <p>
+            {siteContent.professional.specialization} - {siteContent.professional.registration}
+          </p>
         </div>
       </footer>
     </main>

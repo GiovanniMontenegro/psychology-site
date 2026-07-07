@@ -2,9 +2,10 @@ export const siteContent = {
   professional: {
     name: "Dott.ssa Beatrice Teofilo",
     initials: "BT",
-    role: "Psicologa",
+    role: "Psicologa psicoterapeuta sistemico-relazionale",
+    specialization: "Terapeuta EMDR",
     registration: "Iscrizione all'Albo: inserire numero e ordine regionale",
-    location: "Via Roma 1, Rutigliano",
+    location: "Via Roma 2, Rutigliano",
     city: "Rutigliano",
     phone: "+39 000 000 0000",
     email: "nome.cognome@email.it",
@@ -12,7 +13,7 @@ export const siteContent = {
   },
   seo: {
     description:
-      "Colloqui psicologici in studio e online per ansia, stress, difficoltà relazionali e momenti di cambiamento.",
+      "Psicoterapia sistemico-relazionale ed EMDR a Rutigliano e online per adulti, coppie e famiglie. Percorsi per difficoltà personali, relazionali, familiari ed esperienze traumatiche o stressanti.",
   },
   navigation: [
     { label: "Chi sono", href: "#chi-sono" },
@@ -22,25 +23,25 @@ export const siteContent = {
     { label: "Contatti", href: "#contatti" },
   ],
   hero: {
-    title: "Quando qualcosa pesa, puoi parlarne in uno spazio sicuro",
-    text: "Colloqui psicologici in studio e online per attraversare ansia, stress, difficoltà relazionali e momenti di cambiamento.",
+    title: "Comprendere ciò che accade dentro di te e nelle tue relazioni",
+    text: "Percorsi di psicoterapia per adulti, coppie e famiglie con approccio sistemico-relazionale. Quando è indicato, il lavoro può integrare l'EMDR per esperienze traumatiche o emotivamente stressanti.",
     primaryCta: "Fissa un primo colloquio",
     secondaryCta: "Come si svolge il percorso",
   },
   intro: {
-    title: "Accolgo la tua storia con ascolto, metodo e rispetto dei tuoi tempi",
-    text: "Nel primo incontro mettiamo a fuoco cosa stai vivendo, cosa desideri comprendere e quale forma di supporto può esserti utile.",
+    title: "La persona, la coppia e la famiglia dentro una storia più ampia",
+    text: "Nel primo incontro mettiamo a fuoco la richiesta, il contesto in cui nasce il disagio e le risorse da cui può partire il lavoro terapeutico.",
   },
   sections: {
     help: {
       label: "Percorsi",
-      title: "Puoi chiedere supporto quando senti che qualcosa merita attenzione",
-      text: "Non serve arrivare con parole perfette. Possiamo partire da ciò che oggi ti pesa di più e costruire insieme un modo più chiaro per guardarlo.",
+      title: "Percorsi per adulti, coppie e famiglie",
+      text: "Il disagio può esprimersi nella vita personale, nella relazione di coppia, nei legami familiari o dopo esperienze che hanno lasciato un segno. Possiamo partire da ciò che oggi chiede attenzione.",
     },
     method: {
       label: "Metodo",
-      title: "Un percorso chiaro fin dal primo incontro",
-      text: "Prima di iniziare definiamo il motivo della richiesta, gli obiettivi possibili e il modo di lavorare più adatto alla tua situazione.",
+      title: "Un metodo che collega storia, sintomi e contesto relazionale",
+      text: "L'approccio sistemico-relazionale aiuta a leggere il disagio dentro i legami, i ruoli e i contesti di vita. L'EMDR può essere integrato quando emergono esperienze traumatiche o fortemente stressanti.",
     },
     location: {
       label: "Dove ricevo",
@@ -59,40 +60,55 @@ export const siteContent = {
   },
   helpAreas: [
     {
-      title: "Ansia e stress",
-      text: "Quando tensione, pensieri ricorrenti o stanchezza mentale rendono le giornate più faticose.",
+      title: "Psicoterapia individuale per adulti",
+      text: "Per ansia, stress, momenti di crisi, scelte difficili o vissuti che si ripetono e chiedono di essere compresi.",
     },
     {
-      title: "Relazioni e confini",
-      text: "Per comprendere dinamiche che si ripetono, bisogni non detti e modi più chiari di stare in relazione.",
+      title: "Percorsi di coppia",
+      text: "Per affrontare conflitti, distanza emotiva, comunicazione faticosa, passaggi di vita o dinamiche che bloccano la relazione.",
     },
     {
-      title: "Autostima e scelte",
-      text: "Per dare più spazio ai tuoi bisogni, riconoscere risorse e scegliere con maggiore fiducia.",
+      title: "Percorsi familiari",
+      text: "Per leggere insieme cambiamenti, tensioni, difficoltà comunicative o fasi del ciclo familiare che richiedono nuovi equilibri.",
     },
     {
-      title: "Cambiamenti di vita",
-      text: "Quando una transizione, una perdita o un nuovo inizio richiede tempo per essere compreso.",
+      title: "EMDR e vissuti traumatici",
+      text: "Quando eventi traumatici o esperienze emotivamente stressanti continuano a influenzare il presente, il percorso può integrare il metodo EMDR.",
     },
   ],
   method: [
     {
       step: "01",
       title: "Primo colloquio",
-      text: "Ascolto la tua richiesta, raccogliamo le informazioni essenziali e valutiamo se iniziare un percorso.",
+      text: "Ascolto la richiesta, raccogliamo le informazioni essenziali e valutiamo se iniziare un percorso individuale, di coppia o familiare.",
     },
     {
       step: "02",
-      title: "Obiettivi condivisi",
-      text: "Definiamo insieme obiettivi realistici, rivedibili nel tempo e coerenti con ciò che stai attraversando.",
+      title: "Lettura della situazione",
+      text: "Colleghiamo vissuti, sintomi, relazioni e contesti di vita per costruire una comprensione condivisa di ciò che sta accadendo.",
     },
     {
       step: "03",
-      title: "Percorso su misura",
-      text: "Lavoriamo su pensieri, emozioni e comportamenti per trasformare la comprensione in scelte praticabili.",
+      title: "Lavoro terapeutico",
+      text: "Definiamo obiettivi realistici e scegliamo gli strumenti più adatti, integrando l'EMDR quando la storia clinica lo rende indicato.",
     },
   ],
   faq: [
+    {
+      question: "Lavori solo con adulti o anche con coppie e famiglie?",
+      answer:
+        "Il percorso può essere individuale, di coppia o familiare. La forma più adatta viene valutata a partire dalla richiesta e dal contesto in cui nasce il disagio.",
+    },
+    {
+      question: "Che cosa significa approccio sistemico-relazionale?",
+      answer:
+        "Significa osservare la sofferenza non come un fatto isolato, ma dentro la storia personale, i legami importanti, i ruoli e i contesti di vita.",
+    },
+    {
+      question: "Quando può essere utile l'EMDR?",
+      answer:
+        "L'EMDR può essere integrato nel percorso quando esperienze traumatiche o emotivamente stressanti continuano a incidere sul presente. L'indicazione viene valutata durante i colloqui.",
+    },
     {
       question: "Posso fare colloqui online?",
       answer:

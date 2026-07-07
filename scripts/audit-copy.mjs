@@ -23,9 +23,42 @@ const bannedPatterns = [
   },
 ];
 
+const requiredPatterns = [
+  {
+    pattern: /Psicologa psicoterapeuta sistemico-relazionale/i,
+    reason: "la qualifica professionale principale deve essere esplicitata",
+  },
+  {
+    pattern: /Terapeuta EMDR/i,
+    reason: "la competenza EMDR deve essere visibile nei contenuti pubblici",
+  },
+  {
+    pattern: /adulti/i,
+    reason: "il sito deve comunicare che la professionista lavora con adulti",
+  },
+  {
+    pattern: /coppie/i,
+    reason: "il sito deve comunicare che la professionista lavora con coppie",
+  },
+  {
+    pattern: /famiglie/i,
+    reason: "il sito deve comunicare che la professionista lavora con famiglie",
+  },
+  {
+    pattern: /esperienze traumatiche|esperienze stressanti/i,
+    reason: "l'EMDR deve essere collegata a trauma o esperienze emotivamente stressanti senza claim assoluti",
+  },
+];
+
 const failures = bannedPatterns
   .filter(({ pattern }) => pattern.test(source))
   .map(({ pattern, reason }) => `- ${pattern}: ${reason}`);
+
+const missing = requiredPatterns
+  .filter(({ pattern }) => !pattern.test(source))
+  .map(({ pattern, reason }) => `- ${pattern}: ${reason}`);
+
+failures.push(...missing);
 
 if (failures.length > 0) {
   console.error("Copy audit failed:\n" + failures.join("\n"));
