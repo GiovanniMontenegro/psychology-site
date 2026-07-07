@@ -68,15 +68,13 @@ a {
 }
 
 .brand-mark {
-  display: grid;
+  display: block;
   width: 42px;
   height: 42px;
-  place-items: center;
   border-radius: 8px;
-  background: var(--sage-dark);
-  color: #fffdf9;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 15px;
+  background: #fffdf9;
+  object-fit: cover;
+  box-shadow: inset 0 0 0 1px rgba(31, 40, 36, 0.08);
 }
 
 .brand strong,
