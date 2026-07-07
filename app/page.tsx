@@ -101,6 +101,12 @@ export default function Home() {
               <MapPin size={18} aria-hidden="true" />
               {siteContent.professional.location}
             </p>
+            {siteContent.localSeo.map((item) => (
+              <p key={item}>
+                <ShieldCheck size={18} aria-hidden="true" />
+                {item}
+              </p>
+            ))}
             <p>
               <ShieldCheck size={18} aria-hidden="true" />
               Riservatezza, puntualità e setting dedicato.

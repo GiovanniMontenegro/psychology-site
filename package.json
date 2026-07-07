@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "audit:copy": "node scripts/audit-copy.mjs",
+    "audit:seo": "node scripts/audit-seo.mjs",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },

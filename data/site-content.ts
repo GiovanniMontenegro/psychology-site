@@ -6,14 +6,39 @@ export const siteContent = {
     specialization: "Terapeuta EMDR",
     registration: "Iscrizione all'Albo: inserire numero e ordine regionale",
     location: "Via Roma 2, Rutigliano",
+    streetAddress: "Via Roma 2",
     city: "Rutigliano",
+    region: "BA",
+    country: "IT",
     phone: "+39 000 000 0000",
     email: "nome.cognome@email.it",
     online: "Colloqui in studio e online",
   },
   seo: {
+    siteUrl: "https://www.beatriceteofilo.it",
+    title: "Psicologa e Psicoterapeuta a Rutigliano | Dott.ssa Beatrice Teofilo",
     description:
-      "Psicoterapia sistemico-relazionale ed EMDR a Rutigliano e online per adulti, coppie e famiglie. Percorsi per difficoltà personali, relazionali, familiari ed esperienze traumatiche o stressanti.",
+      "Psicologa e psicoterapeuta a Rutigliano, in provincia di Bari. Percorsi di psicoterapia sistemico-relazionale ed EMDR in studio e online per adulti, coppie e famiglie.",
+    keywords: [
+      "psicologa a Rutigliano",
+      "psicoterapeuta a Rutigliano",
+      "psicoterapia Rutigliano",
+      "EMDR a Rutigliano",
+      "psicoterapia di coppia Rutigliano",
+      "psicoterapia familiare Rutigliano",
+      "psicologa online Bari",
+    ],
+    areaServed: ["Rutigliano", "provincia di Bari", "online"],
+    knowsAbout: [
+      "psicoterapia individuale",
+      "psicoterapia di coppia",
+      "psicoterapia familiare",
+      "approccio sistemico-relazionale",
+      "EMDR",
+      "ansia e stress",
+      "relazioni familiari",
+      "vissuti traumatici",
+    ],
   },
   navigation: [
     { label: "Chi sono", href: "#chi-sono" },
@@ -46,7 +71,7 @@ export const siteContent = {
     location: {
       label: "Dove ricevo",
       title: "Colloqui in studio e online",
-      text: "Ricevo in uno spazio riservato e dedicato. Quando è indicato, è possibile svolgere il percorso anche online.",
+      text: "Ricevo a Rutigliano, in provincia di Bari, in uno spazio riservato e dedicato. Quando è indicato, è possibile svolgere il percorso anche online.",
     },
     faq: {
       label: "Domande frequenti",
@@ -74,6 +99,33 @@ export const siteContent = {
     {
       title: "EMDR e vissuti traumatici",
       text: "Quando eventi traumatici o esperienze emotivamente stressanti continuano a influenzare il presente, il percorso può integrare il metodo EMDR.",
+    },
+  ],
+  localSeo: [
+    "Studio di psicologia e psicoterapia a Rutigliano, in provincia di Bari.",
+    "Percorsi disponibili in presenza e, quando appropriato, anche online.",
+    "Servizi rivolti ad adulti, coppie e famiglie.",
+  ],
+  services: [
+    {
+      name: "Psicoterapia individuale per adulti",
+      description:
+        "Percorsi individuali per ansia, stress, crisi personali, scelte difficili e vissuti che si ripetono nel tempo.",
+    },
+    {
+      name: "Psicoterapia di coppia",
+      description:
+        "Percorsi per coppie che attraversano conflitti, distanza emotiva, passaggi di vita o difficoltà comunicative.",
+    },
+    {
+      name: "Psicoterapia familiare",
+      description:
+        "Percorsi familiari per comprendere tensioni, cambiamenti e dinamiche relazionali che richiedono nuovi equilibri.",
+    },
+    {
+      name: "EMDR",
+      description:
+        "Integrazione del metodo EMDR quando la storia clinica e la richiesta rendono indicato lavorare su esperienze traumatiche o stressanti.",
     },
   ],
   method: [
